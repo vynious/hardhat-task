@@ -5,6 +5,6 @@ const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
 
 module.exports = buildModule("TokenModule", (m) => {
-    const token = m.contract("Token", []);  // No constructor arguments or `value` needed
+    const token = m.contract("Token", []);  
     return { token };
 });

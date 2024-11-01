@@ -24,8 +24,6 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
 
 require("./tasks/balance");
 require("./tasks/transfer");
-require("./tasks/deposit")
-require("./tasks/withdraw")
 
 
 /** @type import('hardhat/config').HardhatUserConfig */
