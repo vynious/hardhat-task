@@ -14,3 +14,6 @@ npx hardhat ignition deploy ./ignition/modules/Token.js
 # interacting with contract
 npx hardhat transfer --to <address> --amount <amount> --network sepolia
 ```
+
+
+Deployed address on Sepolia: 0xBECF4a7eBb1dfe3d274e6F33E844120F2F4B43F8
